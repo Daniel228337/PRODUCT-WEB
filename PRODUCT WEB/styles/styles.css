@@ -61,6 +61,7 @@ button {
     max-width: 1312px;
     width: 100%;
     margin: 0 auto;
+    padding: 0 16px;
 }
 
 button {
@@ -75,7 +76,15 @@ button {
 .row {
     display: flex;
     margin: 0 -16px;
-    max-width: 100%;
+    flex-wrap: wrap;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
 }
 
 /* *_______________HEADER_______________* */
@@ -95,7 +104,6 @@ button {
     justify-content: flex-end;
     gap: 48px;
     align-items: center;
-    margin-left: 32px;
 }
 
 /* *_______________GREETING_______________* */
@@ -155,15 +163,9 @@ button {
     margin-bottom: 32px;
 }
 
-.home-reviews__cards {
-    display: flex;
-    gap: 32px;
-}
-
 .home-reviews-card__item {
     padding: 32px;
     box-shadow: -4px 8px 20px 0px #0000001A;
-    min-width: 405px;
     border-radius: 12px;
 }
 

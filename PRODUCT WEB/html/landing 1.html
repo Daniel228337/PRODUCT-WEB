@@ -7,21 +7,22 @@
     <link rel="stylesheet" href="../styles/styles.css">
 </head>
 <body>
-    <div class="dark-overlay"></div>
 
     <header class="header">
         <div class="container">
-            <div class="row">
-                <div class="header__logo col col-2">
-                    <a  href="#!">Site name</a>
+            <div class="row align-items-center">
+                <div class="col col-2">
+                    <a class="header__logo" href="#!">Site name</a>
                 </div>
 
-                <nav class="header__nav col col-10">
+                <div class="col col-10">
+                    <nav class="header__nav">
                         <a href="#!">Page</a>
                         <a href="#!">Page</a>
                         <a href="#!">Page</a>
                         <button>Button</button>
-                </nav>
+                    </nav>
+                </div>
 
             </div>
         </div>
@@ -52,15 +53,11 @@
     <section class="home-reviews">
         
         <div class="container">
-            <div class="row">
-                <div class="col col-7">
-                    <h2>Heading</h2>
-                    <p>Subheading to introduce testimonials</p>
-                </div>
-            </div>
+            <h2>Heading</h2>
+            <p>Subheading to introduce testimonials</p>
 
             <div class="row">
-                <div class="home-reviews__cards col col-12">
+                <div class="col col-4 col-md-6">
                     <div class="home-reviews-card__item">
                         <p>“A terrific piece of praise”v</p>
                         <div class="home-reviews-cards__bottom">
@@ -71,6 +68,8 @@
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="col col-4 col-md-6">
                     <div class="home-reviews-card__item">
                         <p>“A fantastic bit of feedback”</p>
                         <div class="home-reviews-cards__bottom">
@@ -81,6 +80,8 @@
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="col col-4 col-md-6">
                     <div class="home-reviews-card__item">
                         <p>“A genuinely glowing review”</p>
                         <div class="home-reviews-cards__bottom">
@@ -91,7 +92,7 @@
                             </div>
                         </div>
                     </div>
-                 
+                </div>
             </div>
         </div>
     </section>
