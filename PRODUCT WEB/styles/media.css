@@ -1,0 +1,79 @@
+@media (max-width: 991px)  {
+
+/* *_______________MAIN STYLES_______________* */
+
+
+    body {
+        font-size: 16px !important;
+    }
+
+    h1 {
+        font-size: 40px !important;
+    }
+
+    h2, h3 {
+        font-size: 28px !important;
+    }
+
+    button {
+        font-size: 12px !important;
+        padding: 10px 20px !important;
+
+    }
+
+/* *_______________HEADER_______________* */
+    .header {
+        font-size: 16px;
+        padding: 40px 0px;
+    }
+
+/* *_______________HOME-GREETING_______________* */
+    .home-greeting  {
+        padding: 60px 0;
+    }
+
+    .home-greeting h1 {
+        margin-bottom: 10px;
+    }
+
+    .home-greeting p {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+/* *_______________home-reviews_______________* */
+.home-reviews-cards-bottom__info span {
+    max-width: 200px;
+}
+
+.home-reviews {
+    padding: 60px 0;
+}
+
+.home-reviews p {
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.home-reviews-card__item {
+    margin-top: 24px;
+}
+
+.home-reviews-card__item p {
+    margin-bottom: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
