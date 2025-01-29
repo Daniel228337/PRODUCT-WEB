@@ -85,6 +85,18 @@ button {
     align-items: center;
 }
 
+.mobile-menu {
+    display: none;
+}
+
+.mobile-arrow-right {
+    display: none;
+}
+
+.mobile-arrow-left {
+    display: none;
+}
+
 /* *_______________HEADER_______________* */
 .header {
     padding: 56px 0;
@@ -105,16 +117,6 @@ button {
 }
 
 /* *_______________GREETING_______________* */
-.dark-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 10; 
-}
-
 .home-greeting {
     padding: 120px 0;
 }
@@ -222,6 +224,7 @@ button {
 .footer__links {
     display: flex;
     gap: 8px;
+    min-width: 150px;
 }
 
 .footer__links a {
@@ -255,12 +258,12 @@ button {
 
 /* *_______________TWO-FRUITS_______________* */
 .two-fruits__info {
-    margin-right: 140px;
+    margin-right: 108px;
 }
 
 .two-fruits__info:nth-of-type(2) {
     margin: 0;
-    margin-left: 140px;
+    margin-left: 108px;
 }
 
 .two-fruits__info h2 {

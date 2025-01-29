@@ -5,21 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shop</title>
     <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="../styles/media.css">
+
 </head>
 <body>
     <header class="header">
         <div class="container">
-            <div class="row">
-                <div class="header__logo col col-2">
-                    <a  href="#!">Site name</a>
+            <div class="row align-items-center">
+                <div class="col col-2 col-md col-sm-4">
+                    <a class="header__logo" href="#!">Site name</a>
                 </div>
 
-                <nav class="header__nav col col-10">
-                    <a href="#!">Page</a>
-                    <a href="#!">Page</a>
-                    <a href="#!">Page</a>
-                    <button>Button</button>
-                </nav>
+                <div class="col col-10 col-md col-sm-8">
+                    <div class="mobile-menu ">
+                        <img src="../img/mobile-menu.png" alt="">
+                    </div>
+                    <nav class="header__nav">
+                        <a href="#!">Page</a>
+                        <a href="#!">Page</a>
+                        <a href="#!">Page</a>
+                        <button>Button</button>
+                    </nav>
+                </div>
 
             </div>
         </div>
@@ -28,7 +35,7 @@
     <section class="shop-title">
         <div class="container">
             <div class="row">
-                <div class="shop-title__wrap col col-6">
+                <div class="shop-title__wrap col col-6 col-sm-10">
                     <h1>Shop title</h1>
                     <p>Subheading with description of your shopping site</p>
                     <button>Button</button>
@@ -40,25 +47,25 @@
     <section class="shop-product-cards">
         <div class="container">
             <div class="row">
-                <div class="col col-2">
+                <div class="col col-sm">
                     <h3>Heading</h3>
                 </div>
             </div>
 
             <div class="row">
-                <a class="shop-product-cards__item col col-4" href="#!">
+                <a class="shop-product-cards__item col col-4 col-md col-sm" href="#!">
                     <img src="../img/shop-product-card-1.jpg" alt="">
                     <span>Product</span>
                     <p>Description of first product</p>
                     <span>$10.99</span>
                 </a>
-                <a class="shop-product-cards__item col col-4" href="#!">
+                <a class="shop-product-cards__item col col-4 col-md col-sm" href="#!">
                     <img src="../img/shop-product-card-2.jpg" alt="">
                     <span>Product</span>
                     <p>Description of first product</p>
                     <span>$10.99</span>
                 </a>
-                <a class="shop-product-cards__item col col-4" href="#!">
+                <a class="shop-product-cards__item col col-4 col-md col-sm" href="#!">
                     <img src="../img/shop-product-card-3.jpg" alt="">
                     <span>Product</span>
                     <p>Description of first product</p>
@@ -66,19 +73,19 @@
                 </a>
             </div>
             <div class="row">
-                <a class="shop-product-cards__item col col-4" href="#!">
+                <a class="shop-product-cards__item col col-4 col-md col-sm" href="#!">
                     <img src="../img/shop-product-card-4.jpg" alt="">
                     <span>Product </span>
                     <p>Description of first product</p>
                     <span>$10.99</span>
                 </a>
-                <a class="shop-product-cards__item col col-4" href="#!">
+                <a class="shop-product-cards__item col col-4 col-md col-sm" href="#!">
                     <img src="../img/shop-product-card-5.jpg" alt="">
                     <span>Product </span>
                     <p>Description of first product</p>
                     <span>$10.99</span>
                 </a>
-                <a class="shop-product-cards__item col col-4" href="#!">
+                <a class="shop-product-cards__item col col-4 col-md col-sm" href="#!">
                     <img src="../img/shop-product-card-6.jpg" alt="">
                     <span>Product </span>
                     <p>Description of first product</p>
@@ -91,20 +98,20 @@
     <section class="shop-featured-cards">
         <div class="container">
             <div class="row">
-                <div class="col col-2">
+                <div class="col col-sm">
                     <h3>Heading</h3>
                 </div>
             </div>
 
             <div class="row">
-                <a class="shop-product-cards__item col col-7" href="#!">
+                <a class="shop-product-cards__item col col-7 col-md col-md-8 col-cm-8 col-sm" href="#!">
                     <img src="../img/shop-featured-card-1.jpg" alt="">
                     <span>Featured product</span>
                     <p>Description of featured product</p>
                     <span>$10.99</span>
                 </a>
 
-                <div class="shop-featured-cards__wrap col col-5">
+                <div class="shop-featured-cards__wrap col col-5 col-md col-md-4 col-cm-4">
                     <a class="shop-product-cards__item" href="#!">
                         <img src="../img/shop-product-card-1.jpg" alt="">
                         <span>Product</span>
@@ -126,7 +133,7 @@
     <footer class="footer">
         <div class="container">
             <div class="row">
-                <div class="footer__left col col-2">
+                <div class="footer__left col col-2 col-md col-md-3 col-sm-12">
                     <a class="footer__logo"  href="#!">Site name</a>
                     <div class="footer__links">
                         <a href="#!"><img src="../img/footer-fb.svg" alt=""></a>
@@ -135,20 +142,22 @@
                         <a href="#!"><img src="../img/footer-insta.svg" alt=""></a>
                     </div>
                 </div>
-                <div class="footer__right col col-10">
-                    <ul>
+                
+                <div class="footer__right col col-10 col-md col-md-9 col-sm-12">
+                    <ul class="">
                         <li>Topic</li>
                         <li><a href="#!">Page</a></li>
                         <li><a href="#!">Page</a></li>
                         <li><a href="#!">Page</a></li>
                     </ul>
-                    <ul>
+                    <ul class="">
                         <li>Topic</li>
                         <li><a href="#!">Page</a></li>
                         <li><a href="#!">Page</a></li>
                         <li><a href="#!">Page</a></li>
                     </ul>
-                    <ul>
+                        
+                    <ul class="">
                         <li>Topic</li>
                         <li><a href="#!">Page</a></li>
                         <li><a href="#!">Page</a></li>
