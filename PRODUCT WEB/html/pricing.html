@@ -5,22 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pricing</title>
     <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="../styles/media.css">
+
 </head>
 <body>
     <header class="header">
         <div class="container">
-            <div class="row">
-                <div class="header__logo col col-2">
-                    <a  href="#!">Site name</a>
+            <div class="row align-items-center">
+                <div class="col col-2 col-md-3 col-sm-4">
+                    <a class="header__logo" href="#!">Site name</a>
                 </div>
 
-                <nav class="header__nav col col-10">
-                    <a href="#!">Page</a>
-                    <a href="#!">Page</a>
-                    <a href="#!">Page</a>
-                    <button>Button</button>
-                </nav>
-
+                <div class="col col-10 col-md-9 col-sm-8">
+                    <div class="mobile-menu ">
+                        <img src="../img/mobile-menu.png" alt="">
+                    </div>
+                    <nav class="header__nav">
+                        <a href="#!">Page</a>
+                        <a href="#!">Page</a>
+                        <a href="#!">Page</a>
+                        <button>Button</button>
+                    </nav>
+                </div>
             </div>
         </div>
     </header>
@@ -28,12 +34,15 @@
     <section class="pricing-title">
         <div class="container">
             <div class="row">
-                <div class="pricing-title__wrap col col-8">
+                <div class="pricing-title__wrap col col-12">
                     <h1>Pricing page title</h1>
                     <h2>And a subheading describing your pricing plans, too</h2>
                     <div class="pricing-title-wrap__plans">
                         <span class="pricing-button pricing-button--active">Monthly plans</span>
                         <span class="pricing-button">Annual plans</span>
+                    </div>
+                    <div class="pricing-title_mobile">
+                        <button>Plans Click :)</button>
                     </div>
                 </div>
             </div>
@@ -43,50 +52,55 @@
     <section class="pricing-grid">
         <div class="container">
             <div class="row">
-                <div class="pricing-grid__item col col-4">
-                    <p>Plan 1 name</p>
-                    <div class="pricing-grid-item__price">
-                        <span>$5</span>
-                        <span>per month</span>
+                <div class="col col-4 col-lg-6 col-md-12">
+                    <div class="pricing-grid__item">
+                        <p>Plan 1 name</p>
+                        <div class="pricing-grid-item__price">
+                            <span>$5</span>
+                            <span>per month</span>
+                        </div>
+                        <ul>
+                            <li>Feature</li>
+                            <li>Feature</li>
+                            <li>Feature</li>
+                            <li>Feature</li>
+                        </ul>
+                        <button>Select</button>
                     </div>
-                    <ul>
-                        <li>Feature</li>
-                        <li>Feature</li>
-                        <li>Feature</li>
-                        <li>Feature</li>
-                    </ul>
-
-                    <button>Select</button>
                 </div>
-                <div class="pricing-grid__item col col-4">
-                    <p>Plan 2 name</p>
-                    <div class="pricing-grid-item__price">
-                        <span>$10</span>
-                        <span>per month</span>
-                    </div>
-                    <ul>
-                        <li>Feature</li>
-                        <li>Feature</li>
-                        <li>Feature</li>
-                        <li>Feature</li>
-                    </ul>
 
-                    <button>Select</button>
+                <div class="col col-4 col-lg-6 col-md-12">
+                    <div class="pricing-grid__item">
+                        <p>Plan 2 name</p>
+                        <div class="pricing-grid-item__price">
+                            <span>$10</span>
+                            <span>per month</span>
+                        </div>
+                        <ul>
+                            <li>Feature</li>
+                            <li>Feature</li>
+                            <li>Feature</li>
+                            <li>Feature</li>
+                        </ul>
+                        <button>Select</button>
+                    </div>
                 </div>
-                <div class="pricing-grid__item col col-4">
-                    <p>Plan 3 name</p>
-                    <div class="pricing-grid-item__price">
-                        <span>$20</span>
-                        <span>per month</span>
-                    </div>
-                    <ul>
-                        <li>Feature</li>
-                        <li>Feature</li>
-                        <li>Feature</li>
-                        <li>Feature</li>
-                    </ul>
 
-                    <button>Select</button>
+                <div class="col col-4 col-lg-6 col-md-12">
+                    <div class="pricing-grid__item">
+                        <p>Plan 3 name</p>
+                        <div class="pricing-grid-item__price">
+                            <span>$20</span>
+                            <span>per month</span>
+                        </div>
+                        <ul>
+                            <li>Feature</li>
+                            <li>Feature</li>
+                            <li>Feature</li>
+                            <li>Feature</li>
+                        </ul>
+                        <button>Select</button>
+                    </div>
                 </div>
 
               
@@ -107,7 +121,7 @@
     <footer class="footer">
         <div class="container">
             <div class="row">
-                <div class="footer__left col col-2">
+                <div class="footer__left col col-2 col-md-12">
                     <a class="footer__logo"  href="#!">Site name</a>
                     <div class="footer__links">
                         <a href="#!"><img src="../img/footer-fb.svg" alt=""></a>
@@ -116,20 +130,22 @@
                         <a href="#!"><img src="../img/footer-insta.svg" alt=""></a>
                     </div>
                 </div>
-                <div class="footer__right col col-10">
-                    <ul>
+                
+                <div class="footer__right col col-10 col-md-12">
+                    <ul class="">
                         <li>Topic</li>
                         <li><a href="#!">Page</a></li>
                         <li><a href="#!">Page</a></li>
                         <li><a href="#!">Page</a></li>
                     </ul>
-                    <ul>
+                    <ul class="">
                         <li>Topic</li>
                         <li><a href="#!">Page</a></li>
                         <li><a href="#!">Page</a></li>
                         <li><a href="#!">Page</a></li>
                     </ul>
-                    <ul>
+                        
+                    <ul class="">
                         <li>Topic</li>
                         <li><a href="#!">Page</a></li>
                         <li><a href="#!">Page</a></li>

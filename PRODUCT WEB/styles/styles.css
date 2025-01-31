@@ -71,29 +71,7 @@ button {
     border-radius: 8px;
 }
 
-.row {
-    display: flex;
-    margin: 0 -16px;
-    flex-wrap: wrap;
-}
-
-.between {
-    justify-content: space-between;
-}
-
-.align-items-center {
-    align-items: center;
-}
-
 .mobile-menu {
-    display: none;
-}
-
-.mobile-arrow-right {
-    display: none;
-}
-
-.mobile-arrow-left {
     display: none;
 }
 
@@ -224,12 +202,13 @@ button {
 .footer__links {
     display: flex;
     gap: 8px;
-    min-width: 150px;
 }
 
 .footer__links a {
+    display: block;
     width: 40px;
     height: 40px;
+    min-width: 40px;
 }
 
 .footer__right {
@@ -425,15 +404,22 @@ button {
 /* !_______________SHOP_______________! */
 
 /* *_______________SHOP-TITLE_______________* */
-.shop-title .container {
+.shop-title  {
     background-image: url(../img/shop-title.jpg);
     background-repeat: no-repeat;
     background-position: center;
     padding: 192px 0;
     background-size: 100%;
     border-radius: 8px;
+    max-width: 1312px;
+    text-align: center;
+    margin: 0 auto;
+
 }
 
+.shop-featured-cards-wrap__mobile {
+    display: none;
+}
 
 .shop-title .row {
     justify-content: center;
@@ -486,10 +472,6 @@ button {
 /* !_______________PRODUCT-DETAIL_______________! */
 
 /* *_______________PRODUCT-GREATING_______________* */
-
-.product-greeting img {
-    min-height: 614px;
-}
 
 .product-greeting .row {
     justify-content: space-between;
@@ -546,6 +528,10 @@ button {
     padding: 80px 0 41px 0;
 }
 
+.pricing-title_mobile {
+    display: none;
+}
+
 .pricing-title .row {
     justify-content: center;
     text-align: center;
@@ -584,10 +570,6 @@ button {
 }
 
 /* *_______________PRICING-GRID_______________* */
-.pricing-grid .row {
-    gap: 16px; /*32 сильно выходит за контейнер*/
-}
-
 .pricing-grid {
     padding-bottom: 108px;
 }
@@ -718,7 +700,7 @@ button {
 .portfolio-title p {
     margin-top: 24px;
     color: var(--color-grey);
-    font-size: 24pxh;
+    font-size: 24px;
 }
 
 /* *_______________PORTFOLIO-CARDS_______________* */
@@ -728,7 +710,6 @@ button {
 }
 
 .portfolio-cards__item img {
-    max-width: 621px;
     margin-bottom: 24px;
 }
 
@@ -748,10 +729,6 @@ button {
 .contact {
     padding-top: 80px;
     padding-bottom: 120px;
-}
-
-.contact .row {
-    justify-content: space-between;
 }
 
 .contact h1 {
@@ -790,7 +767,7 @@ button {
 }
 
 .contact .contact__img {
-    margin-right: -38px;
+    margin-left: auto;
 }
 
 .contact-form-name {
@@ -809,9 +786,14 @@ button {
     flex-direction: column;
 }
 
-.contact-form-message {
-    display: flex;
-    flex-direction: column;
+.contact-message {
+    box-shadow: 0px 1px 2px 0px #0000000D;
+    border: 1px solid #E0E0E0;
+    height: 162px;
+    border-radius: 8px;
+    padding: 12px 16px 12px 16px;
+    font-size: 16px;
+    
 }
 
 .contact-form-message input {
@@ -870,7 +852,6 @@ button {
 
 .footer__wait {
     display: flex;
-    padding-bottom: 33px;
     justify-content: space-between;
 }
 /* !_______________ABOUT_______________! */
@@ -882,7 +863,6 @@ button {
 
 .about .row {
     justify-content: space-between;
-    gap: 143px;
 }
 .about__info {
     display: flex;

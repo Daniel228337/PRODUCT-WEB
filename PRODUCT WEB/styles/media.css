@@ -1,19 +1,5 @@
 @media (max-width: 1399px) {
-
-/* !_______________LANDING 2_______________* */
-    .two-fruits__info {
-        margin-right: 100px;
-    }
-
-    .two-fruits__info:nth-of-type(2) {
-        margin-left: 100px;
-    }
-
-}
-
-@media (max-width: 1200px) {
-
-/* !_______________LANDING 2_______________* */
+/* *_______________LANDING 2_______________* */
     .two-fruits__info {
         margin-right: 80px;
     }
@@ -22,18 +8,40 @@
         margin-left: 80px;
     }
 
+/* *_______________CONTACT_______________* */
 
+
+}
+
+@media (max-width: 1199px) {
 
 }
 
 @media (max-width: 991px)  {
 
-/* *_______________MAIN STYLES_______________* */
-    body {
-        font-size: 15px;
+ /* *MAIN STYLES */
+
+    h1 {
+        font-size: 40px !important;
     }
 
-/* !_______________LANDING 1_______________* */
+    h2,h3,h4 {
+        font-size: 30px !important;
+    }
+
+    b {
+        font-size: 20px !important;
+    }
+
+    p {
+        font-size: 18px !important;
+    }
+
+    span {
+        font-size: 15px !important;
+    }
+
+/* *_______________LANDING 1_______________* */
     button {
         font-size: 16px;
         padding: 10px 20px;
@@ -46,7 +54,6 @@
 
     .header {
         font-size: 20px;
-        padding: 33px 30px;
     }
 
     .footer__right {
@@ -54,11 +61,11 @@
     }
 
     .footer ul {
-        min-width: 124px;
+        min-width: 139px;
     }
 
-    .footer .container .row {
-        padding: 40px 30px;
+    .footer__links a {
+        min-width: 30px;
     }
 
     .home-greeting  {
@@ -90,40 +97,58 @@
 
     .home-reviews-cards-bottom__info span {
         max-width: 200px;
-        font-size: px;
+        font-size: 15px;
     }
 
     .home-reviews-card__item {
         margin-top: 24px;
-        padding: 19px;
+        padding: 24px;
     }
 
     .home-reviews-card__item p {
         margin-bottom: 20px;
     }
 
-/* !_______________LANDING 2_______________* */
+/* *_______________LANDING 2_______________* */
 
-    .two-fruits__info {
-        margin-right: 60px;
+    h2, h3 {
+        font-size: 30px;
     }
-
+    
     .two-fruits__info h2 {
         font-size: 30px;
-        margin-bottom: 15px;
-    }
-
-    .two-fruits__info:nth-of-type(2) {
-        margin-left: 60px;
-    }
-
-    .two-fruits__img:nth-of-type(2) {
-        margin-bottom: 55px;
+        margin-bottom: 8px;
+        margin-top: 20px;
     }
 
     .two-fruits__info p {
-        font-size: 15px;
-        line-height: 1.4;
+        font-size: 18px;
+        margin-bottom: 12px;
+    }
+
+    .two-fruits__img:nth-of-type(2) {
+        margin-bottom: 36px;
+    }
+
+    .two-fruits__info button {
+        margin-bottom: 12px;
+    }
+
+    .two-fruits__img, .two-fruits__info {
+        text-align: center;
+    }
+
+    .two-fruits__info {
+        margin-right: 0px;
+    }
+
+    .two-fruits__info:nth-of-type(2) {
+        margin-left: 0px;
+        order: 1;
+    }
+
+    .two-fruits__img:nth-of-type(1) {
+        order: 2;
     }
 
     .two-text-section {
@@ -134,282 +159,199 @@
         font-size: 30px;
     }
 
+    .two-text-section__item img {
+        width: 25px;
+        height: 25px;
+    }
+
     .two-text-section__item b {
         font-size: 20px;
     }
 
     .two-text-section__item p {
-        font-size: 15px;
-    }
-
-    .two-text-section__item img {
-        width: 25px;
-    }
-
-    .two-text-section .container .row .two-text-section__item:nth-of-type(1) {
-        margin-bottom: 29px;
+        font-size: 18px;
     }
 
     .two-bottom {
-        padding: 70px 0;
-    }
-
-    .two-bottom__wrap h2 {
-        font-size: 30px;
+        padding: 60px 0;
     }
 
     .two-bottom__wrap p {
+        margin: 17px 0;
         font-size: 18px;
-        margin: 18px 0;
+    }
+/* *_______________ARTICLE_______________* */
+    .article-title  {
+        padding: 60px 0;
     }
 
-/* !_______________ARTICLE_______________* */
-    .article-title {
-        padding: 48px 0;
-    }
-
-    .article-title h1 {
-        font-size: 40px;
-    }
-
-    .article-cards h3 {
-        font-size: 30px;
-    }
-
-    .article-text  {
-        padding: 48px 0;
-    }
-
-    .article-text p + p {
-        margin-top: 29px;
-    }
-
-    .article-bottom-text p + p {
-        margin-top: 29px;
+    .article-text {
+        padding: 60px 0;
     }
 
     .article-bottom-text {
-        padding-top: 48px;
+        padding: 60px 0;
     }
 
     .article-cards {
-        padding: 55px 0; 
+        padding: 60px 0;
     }
 
-/* !_______________SHOP_______________* */
-    .shop-title__wrap h1 {
-        font-size: 40px;
+/* *_______________SHOP_______________* */
+    .shop-product-cards {
+        padding: 80px 0;
     }
 
-    .shop-title__wrap p {
-        font-size: 15px;
+    .shop-featured-cards__wrap img {
+        max-height: 100%;
     }
 
-    .shop-title .container {
-        padding: 135px 0;
+    .shop-featured-cards-wrap__mobile {
+        display: block;
     }
 
-    .shop-title {
-        padding: 0 10px;
+    .shop-featured-cards__wrap {
+        display: none;
     }
 
     .shop-product-cards {
-        padding: 56px 0;
-    }
-
-    .shop-product-cards h3 {
-        font-size: 30px;
-    }
-
-    .shop-product-cards__item span:nth-child(2) {
-        margin-top: 16px;
-        margin-bottom: 0;
-    }
-
-    .shop-product-cards__item p {
-        margin-bottom: 0;
-    }
-
-    .shop-featured-cards h3 {
-        font-size: 30px;
+        padding: 60px 0;
     }
 
     .shop-featured-cards {
         padding-bottom: 60px;
     }
 
-}
+/* *_______________PRICING_______________* */
 
-@media (max-width: 768px) {
-
-/* !_______________LANDING 1_______________* */
-    .row {
-    margin: 0 -8px;
+    .pricing-grid__item {
+        margin-top: 30px;
+    }
+   
+    .pricing-question {
+        padding-bottom: 100px;
     }
 
+    .pricing-grid {
+        padding-bottom: 80px;
+    }
+
+/* *_______________PORTFOLIO_______________* */
+    .portfolio-cards__item {
+        text-align: center;
+    }
+
+    .portfolio-cards__item img {
+        margin-bottom: 11px;
+    }
+
+    .portfolio-title {
+        padding-top: 40px;
+    }
+
+    .portfolio-cards {
+        padding-bottom: 50px;
+    }
+
+/* *_______________CONTACT_______________* */
+    .contact .contact__img {
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    .contact {
+        padding-bottom: 80px;
+    }
+
+    .contact {
+        padding: 50px 0;
+        
+    }
+
+    .contact p {
+        margin-bottom: 12px;
+    }
+
+    .contact input {
+        width: 100%;
+    }
+
+/* *_______________WAITLIST_______________* */
+    .wait-title {
+        padding: 180px 0;
+    }
+
+    .wait-title input {
+        margin-right: 0;
+    }
+
+    .wait-title__wrap form {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .wait-title__wrap button {
+        text-align: center;
+    }
+
+/* *_______________ABOUT_______________* */
+    .about__info  {
+        padding: 0 50px;
+        text-align: center;
+    }
+
+    .about__img  {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .about {
+        padding: 50px 0;
+    }
+
+}
+
+@media (max-width: 767px) {
+     /* *MAIN STYLES */
+
+     h1 {
+        font-size: 30px !important;
+    }
+
+    h2,h3,h4 {
+        font-size: 25px !important;
+    }
+
+    b {
+        font-size: 18px !important;
+    }
+
+    p {
+        font-size: 15px !important;
+    }
+
+    span {
+        font-size: 13px !important;
+    }
+
+/* *_______________LANDING 1_______________* */
     button {
         font-size: 13px;
         padding: 8px 20px;
     }
 
     .header {
-        font-size: 13px;
-        padding: 30px 25px;
+        font-size: 15px;
+        padding: 40px 0;
     }
 
     .home-greeting {
-        padding: 30px 0px 60px 0px
+        padding: 30px 0px 30px 0px;
     }
-
+    
     .home-greeting .home-greeting__wrap h1 {
         font-size: 30px;
-    }
-
-    .home-greeting p {
-        font-size: 15px;
-    }
-
-    .home-reviews {
-        padding: 30px 0;
-    }
-
-    .home-reviews h2 {
-        font-size: 30px;
-    }
-
-    .home-reviews p {
-        font-size: 15px;
-    }
-
-    .home-reviews-card__item {
-        padding: 25px;
-    }
-
-    .home-reviews-cards-bottom__info span {
-        font-size: 15px;
-    }
-
-    .footer .container .row {
-        padding: 30px 25px;
-    }
-
-    .footer__logo {
-        font-size: 15px;
-    }
-
-    .footer ul {
-        min-width: 100px;
-        font-size: 15px;
-    }
-
-/* !_______________LANDING 2_______________* */
-
-    .home-greeting {
-    padding: 30px 0px 45px 0px;
-    }
-
-    .two-text-section {
-    padding: 55px 0;
-    }
-
-    .two-fruits__img:nth-of-type(2) {
-    margin-bottom: 45px;    
-    }
-
-    .two-fruits__info {
-    margin-right: 45px;
-    }
-
-    .two-fruits__info:nth-of-type(2) {
-    margin-left: 45px;
-    }
-/* !_______________ARTICLE_______________* */
-
-    .article-title h1 {
-        font-size: 30px;
-    }   
-
-    .article-title p {
-        margin-top: 13px;
-        font-size: 15px;
-    }
-
-    .article-title {
-        padding: 32px 0;
-    }
-
-    .article-text {
-        padding: 33px 0;
-    }
-
-    .article-text p + p {
-        margin-top: 19px;
-    }
-
-    .article-bottom-text {
-        padding-top: 33px;
-    }
-
-    .article-cards-wrap__item span:nth-child(2) {
-        margin-top: 12px;
-    }
-
-    .article-cards {
-        padding-bottom: 39px;
-    }
-/* !_______________SHOP_______________* */
-    .shop-title .container {
-        padding: 82px 0;
-    }
-
-    .shop-title__wrap h1 {
-        font-size: 30px;
-    }
-
-    .shop-title__wrap p {
-        padding: 12px 0;
-    }
-
-    .shop-product-cards {
-        padding: 36px 0;
-    }
-
-    .shop-product-cards__item {
-        margin-top: 25px;
-    }
-
-    .shop-featured-cards {
-        padding-bottom: 40px;
-    }
-
-
-}
-
-@media (max-width: 576px) {
-/* !_______________LANDING 1_______________* */
-    .row {
-        margin: 0 -4px;
-    }
-
-    .container {
-        padding: 0 8px;
-    }
-
-    button {
-        font-size: 12px;
-        padding: 7px 12px;
-    }
-
-    .home-greeting button {
-        margin: 0;
-    }
-
-    .header {
-        padding: 20px 4px;
-    }
-
-    .home-greeting {
-        padding: 33px 0;
     }
 
     .mobile-menu {
@@ -429,16 +371,253 @@
         margin-left: 120px;
     }
 
-    .align-items-center {
-        align-items: start;
+    .home-greeting p {
+        font-size: 15px;
+    }
+
+    .home-reviews {
+        padding: 30px 0;
+    }
+
+    .home-reviews h2 {
+        font-size: 30px;
+    }
+
+    .home-reviews p {
+        font-size: 15px;
+    }
+
+    .home-reviews-cards-bottom__info span {
+        font-size: 13px;
+    }
+
+    .footer__logo {
+        font-size: 15px;
+        margin-bottom: 50px;
+    }
+
+    .footer ul {
+        min-width: 100px;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .footer__left {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .footer__right {
+        justify-content: space-between;
+    }
+
+/* *_______________LANDING 2_______________* */
+    .two-fruits__info h2 {
+        font-size: 25px;
+        margin-top: 12px;
+    }
+
+    .two-fruits__info p {
+        font-size: 15px;
+    }
+
+    .two-text-section {
+        padding: 60px 0;
+    }
+
+    .two-text-section h3 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .two-text-section__item b {
+        font-size: 18px;
+    }
+
+    .two-text-section__item p {
+        font-size: 15px;
+        padding: 0 30px;
+    }
+
+    .two-text-section__item img {
+        width: 20px;
+        height: 20px;
+        margin: 0 auto;
+    }
+
+    .two-text-section__item {
+        gap: 6px;
+    }
+
+    .two-text-section__item {
+        text-align: center;
+        max-width: 100%;
+    }
+
+    .two-text-section__item {
+        margin-bottom: 20px;
+    }
+
+    .two-text-section .container .row .two-text-section__item:nth-of-type(1) {
+        margin-bottom: 20px;
+    }
+    
+/* *_______________ARTICLE_______________* */
+    .article-img__wrap {
+        display: block;
+    }
+
+    .article-img .row {
+        text-align: center;
+    }
+
+    .article-title {
+        padding: 50px 0;
+    }
+
+    .article-text {
+        padding: 50px 0;
+    }
+
+    .article-text p + p {
+        margin-top: 30px;
+    }
+
+    .article-bottom-text {
+        padding: 50px 0;
+    }
+
+    .article-bottom-text {
+        padding: 50px 0;    
+    }
+
+    .article-cards {
+        padding: 50px 0;
+    }
+
+    .article-cards-wrap__item span:nth-child(2) {
+        margin-top: 10px;
+    }
+
+    .article-cards-wrap__item span:nth-child(3) {
+        margin-bottom: 16px;
+    }
+
+    .article-cards-wrap__item {
+        align-items: center;
+    } 
+    
+/* *_______________SHOP_______________* */
+    .shop-title {
+        padding: 100px 0;
+    }
+
+    .shop-product-cards {
+        padding: 40px 0;
+    }
+
+    .shop-product-cards__item span:nth-child(2) {
+        margin-top: 17px;
+    }
+
+    .shop-featured-cards {
+        padding-bottom: 40px;
+    }
+
+/* *_______________SHOP_______________* */
+    .related-products {
+        padding: 60px 0 80px 0;
+    }
+
+/* *_______________PRICING_______________* */
+
+    .pricing-title {
+        padding: 40px 0 41px 0;
+    }
+
+/* *_______________PORTFOLIO_______________* */
+    .portfolio-title {
+        padding: 50px 0;
+    }
+
+    .portfolio-cards {
+        padding-bottom: 50px;
+    }
+
+/* *_______________CONTACT_______________* */
+    .contact label {
+        display: flex;
+        margin-top: 20px;
+    }
+
+/* *_______________WAITLIST_______________* */
+    .header-wait nav, .wait-title input {
+        font-size: 15px;
+    }
+
+    .wait-title input {
+        min-width: 300px;
+    }
+
+    .wait-title {
+        padding: 120px 0;
+    }
+
+/* *_______________ABOUT_______________* */
+    .about {
+        padding: 40px 0;
+    }
+
+}
+
+@media (max-width: 575px) {
+     /* *MAIN STYLES */
+
+    h1 {
+        font-size: 24px !important;
+    }
+
+    h2,h3,h4 {
+        font-size: 20px !important;
+    }
+
+    b {
+        font-size: 15px !important;
+    }
+
+    p {
+        font-size: 12px !important;
+    }
+
+    span {
+        font-size: 11px !important;
+    }
+
+/* *_______________LANDING 1_______________* */
+    
+    button {
+        font-size: 12px;
+        padding: 7px 12px;
+    }
+
+    .home-greeting button {
+        margin: 0;
+    }
+
+    .header {
+        padding: 20px 0px;
+    }
+
+    .home-greeting {
+        padding: 25px 0;
     }
 
     .home-greeting .home-greeting__wrap h1 {
-        font-size: 25px;
+        font-size: 24px;
     }
 
     .home-greeting p {
-        font-size: 13px;
+        font-size: 12px;
     }
 
     .home-reviews {
@@ -446,7 +625,7 @@
     }
 
     .home-reviews p {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .home-reviews-card__item img {
@@ -458,28 +637,19 @@
     .home-reviews-card__item {
         padding: 15px;
         margin-top: 12px;
+        width: 100%;
     }
 
     .home-reviews-cards-bottom__info span {
-        font-size: 10px;
+        font-size: 11px;
     }
 
     .home-reviews h2 {
-        font-size: 25px;
+        font-size: 20px;
     }
 
-    .col-sm-12  {
-        display: flex;
-        justify-content: center;
-    }
-    
     .footer__logo {
         margin-bottom: 52px;
-        margin-left: 5px;
-    }
-
-    .footer__right {
-        display: none;
     }
 
     .footer .container .row {
@@ -490,155 +660,186 @@
         max-width: 160px;
     }
 
-/* !_______________LANDING 2_______________* */
+    .footer ul {
+        min-width: 0px;
+    }
 
+/* *_______________LANDING 2_______________* */
+
+    h2, h3 {
+        font-size: 20px;
+    }
+    
     .two-fruits__info h2 {
-        font-size: 21px;
+        font-size: 20px;
     }
 
     .two-fruits__info p {
-        font-size: 13px;
-        line-height: 1.3;
-        margin-bottom: 15px;
-    }
-
-    .two-fruits__info {
-        margin-right: 26px;
-    }
-
-    .two-fruits__info:nth-of-type(2) {
-        margin-left: 26px;
-    }
-
-    .two-fruits__info {
-        margin-bottom: 30px;
-    }
-
-    .two-text-section {
-        padding: 30px 0;
+        font-size: 12px;
     }
 
     .two-text-section h3 {
-        font-size: 21px;
+        font-size: 20px;
     }
 
-    .two-text-section__item b {
+    .two-text-section__item b { 
         font-size: 15px;
     }
 
     .two-text-section__item p {
-        font-size: 11px;
+        font-size: 12px;
+    }
+
+    .two-bottom__wrap p {
+        font-size: 12px;
+    }
+
+    .two-text-section {
+        padding: 35px 0;
     }
 
     .two-bottom {
-        padding: 23px;
+        padding: 35px 0;
     }
 
-    .two-bottom__wrap h2 {
-        font-size: 21px;
+    .two-fruits__img:nth-of-type(2) {
+        margin-bottom: 16px;
     }
 
-    .two-bottom__wrap p {
-        font-size: 10px;
-    }
-
-    .two-text-section__item img {
-        width: 17px;
-    }
-
-    .two-bottom__wrap p {
-        line-height: 1.3;
-    }
-
-/* !_______________ARTICLE_______________* */
-    .article-title {
-        padding: 25px 0;
-    }
-
-    .article-title h1 {
-        font-size: 25px;
-    }
-
+/* *_______________ARTICLE_______________* */
     .article-title p {
-        font-size: 13px;
+        margin-top: 20px;
+    }
+
+    .article-cards-wrap__item img {
+        display: block;
+    }
+
+    .article-cards-wrap__item span:nth-child(2) {
+        margin-top: 8px;
+    }
+
+    .article-cards-wrap__item span:nth-child(3) {
+        margin-top: 0; 
+        margin-bottom: 16px;
+    }
+
+    .article-title {
+        padding: 40px 0;
     }
 
     .article-text {
-        padding: 18px 0;
+        padding: 40px 0;
     }
 
-    .article-text p {
-        font-size: 13px;
+    .article-bottom-text {
+        padding: 40px 0;
     }
 
-    .article-text p + p {
-        margin-top: 15px;
+    .article-cards {
+        padding: 40px 0;
     }
 
-    .article-bottom-text p {
-        font-size: 13px;
+    .article-cards-wrap__item {
+        align-items: center;
     }
 
-    .article-img img {
+/* *_______________DETAIL_______________* */
+    
+    .product-greeting__wrap {
+        order: 1;
+    }
+
+    .product-greeting__img {
+        order: 2;
+    }
+
+    .product-greeting__wrap {
+        padding: 30px 16px;
+    }
+
+    .related-products {
+        padding: 50px 0 50px 0;
+    }
+
+/* *_______________PRICING_______________* */
+    .pricing-title-wrap__plans {
+        display: none;
+    }
+
+    .pricing-title_mobile {
         display: block;
-        width: 150px;
-        height: 104px;
     }
 
-    .article-bottom-text p + p {
-        margin-top: 19px;
+    .pricing-title_mobile button {
+        padding: 10px 20px;
     }
 
-    .article-cards h3 {
-        font-size: 20px;
+    .pricing-question p:nth-child(2) {
+        font-size: 12px;
     }
 
-    .article-cards-wrap__item span:nth-child(2) {
-        font-size: 13px;
+    .pricing-question p:nth-child(4) {
+        font-size: 12px;
     }
 
-    .article-cards-wrap__item span:nth-child(3) {
-        font-size: 13px;
+    .pricing-question p:nth-child(5) {
+        font-size: 12px;
     }
 
-    .article-cards-wrap__item span:nth-child(2) {
-        margin-top: 6px;
+    .pricing-grid__item p {
+        font-size: 12px;
     }
 
-    .article-cards-wrap__item span:nth-child(3) {
-        margin-top: 1px;
+    .pricing-grid__item ul li {
+        font-size: 12px;
     }
 
-/* !_______________SHOP_______________* */
-    .shop-title {
-        padding: 0 4px;
+    .pricing-grid__item  {
+        padding: 10px;
+        text-align: center;
+        list-style: none;
     }
 
-    .shop-title__wrap h1 {
-        font-size: 23px;
+    .pricing-grid-item__price {
+        margin-bottom: 20px;
     }
 
-    .shop-title__wrap p {
-        font-size: 11px;
+    .pricing-grid__item ul li:last-child {
+        margin-bottom: 20px;
     }
 
-    .shop-title .container {
-        padding: 32px 0;
+    .pricing-grid__item ul {
+        list-style: none;
+        margin: 0;
     }
 
-    .shop-product-cards h3 {
-        font-size: 21px;
+/* *_______________PORTFOLIO_______________* */
+
+    .portfolio-title {
+        padding: 40px 0;
     }
 
-    .shop-product-cards__item {
-        font-size: 10px;
+    .portfolio-cards { 
+        padding-bottom: 40px;
     }
 
-    .shop-featured-cards h3 {
-        font-size: 21px;
+/* *_______________CONTACT_______________* */
+    .contact .contact__img {
+        padding-top: 60px;
     }
 
-    .shop-featured-cards {
-        padding-bottom: 24px;
+    .contact label, .contact input, .contact-message {
+        font-size: 12px;
+    }
+
+    .contact {
+        padding-bottom: 60px;
+        padding-top: 50px;
+    }
+
+
+    .about__info {
+        padding: 0 16px;
     }
 }

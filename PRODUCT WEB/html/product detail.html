@@ -5,22 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product detail</title>
     <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="../styles/media.css">
 </head>
 <body>
     <header class="header">
         <div class="container">
-            <div class="row">
-                <div class="header__logo col col-2">
-                    <a  href="#!">Site name</a>
+            <div class="row align-items-center">
+                <div class="col col-2 col-md-3 col-sm-4">
+                    <a class="header__logo" href="#!">Site name</a>
                 </div>
 
-                <nav class="header__nav col col-10">
-                    <a href="#!">Page</a>
-                    <a href="#!">Page</a>
-                    <a href="#!">Page</a>
-                    <button>Button</button>
-                </nav>
-
+                <div class="col col-10 col-md-9 col-sm-8">
+                    <div class="mobile-menu ">
+                        <img src="../img/mobile-menu.png" alt="">
+                    </div>
+                    <nav class="header__nav">
+                        <a href="#!">Page</a>
+                        <a href="#!">Page</a>
+                        <a href="#!">Page</a>
+                        <button>Button</button>
+                    </nav>
+                </div>
             </div>
         </div>
     </header>
@@ -29,9 +34,9 @@
         <div class="container">
 
             <div class="row">
-                <img class="col col-6" src="../img/product-greeting.jpg" alt="">
+                <img class="product-greeting__img col col-5 col-lg-6 col-sm-12" src="../img/product-greeting.jpg" alt="">
 
-                <div class="product-greeting__wrap col col-5">
+                <div class="product-greeting__wrap col col-6 col-lg-6 col-sm-12">
                     <h1>Product name</h1>
                     <h4>Subheadingv</h4>
                     <span>$10.99</span>
@@ -47,25 +52,25 @@
         <div class="container">
 
             <div class="row">
-                <div class="col col-2">
+                <div class="col">
                     <h4>Related products</h4>
                 </div>
             </div>
 
             <div class="row">
-                <a class="shop-product-cards__item col col-4" href="#!">
+                <a class="shop-product-cards__item col col-4 col-md-6 col-sm-12" href="#!">
                     <img src="../img/shop-product-card-1.jpg" alt="">
                     <span>Product</span>
                     <p>Description of first product</p>
                     <span>$10.99</span>
                 </a>
-                <a class="shop-product-cards__item col col-4" href="#!">
+                <a class="shop-product-cards__item col col-4 col-md-6 col-sm-12" href="#!">
                     <img src="../img/shop-product-card-2.jpg" alt="">
                     <span>Product</span>
                     <p>Description of first product</p>
                     <span>$10.99</span>
                 </a>
-                <a class="shop-product-cards__item col col-4" href="#!">
+                <a class="shop-product-cards__item col col-4 col-md-6 col-sm-12" href="#!">
                     <img src="../img/shop-product-card-5.jpg" alt="">
                     <span>Product</span>
                     <p>Description of first product</p>
@@ -78,7 +83,7 @@
     <footer class="footer">
         <div class="container">
             <div class="row">
-                <div class="footer__left col col-2">
+                <div class="footer__left col col-2 col-md-12">
                     <a class="footer__logo"  href="#!">Site name</a>
                     <div class="footer__links">
                         <a href="#!"><img src="../img/footer-fb.svg" alt=""></a>
@@ -87,20 +92,22 @@
                         <a href="#!"><img src="../img/footer-insta.svg" alt=""></a>
                     </div>
                 </div>
-                <div class="footer__right col col-10">
-                    <ul>
+                
+                <div class="footer__right col col-10 col-md-12">
+                    <ul class="">
                         <li>Topic</li>
                         <li><a href="#!">Page</a></li>
                         <li><a href="#!">Page</a></li>
                         <li><a href="#!">Page</a></li>
                     </ul>
-                    <ul>
+                    <ul class="">
                         <li>Topic</li>
                         <li><a href="#!">Page</a></li>
                         <li><a href="#!">Page</a></li>
                         <li><a href="#!">Page</a></li>
                     </ul>
-                    <ul>
+                        
+                    <ul class="">
                         <li>Topic</li>
                         <li><a href="#!">Page</a></li>
                         <li><a href="#!">Page</a></li>
