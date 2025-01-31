@@ -509,7 +509,7 @@
     
 /* *_______________SHOP_______________* */
     .shop-title {
-        padding: 100px 0;
+        padding: 40px 0;
     }
 
     .shop-product-cards {
@@ -532,8 +532,21 @@
 /* *_______________PRICING_______________* */
 
     .pricing-title {
-        padding: 40px 0 41px 0;
+        padding: 40px 0 10px 0;
     }
+
+    .pricing-grid__item  {
+        text-align: center;
+    }
+
+    .pricing-grid__item ul {
+        list-style: none;
+        text-align: center;
+        font-size: 15px;
+        margin-left: 0;
+    }
+
+
 
 /* *_______________PORTFOLIO_______________* */
     .portfolio-title {
