@@ -6,6 +6,7 @@
     <title>Pricing</title>
     <link rel="stylesheet" href="../styles/styles.css">
     <link rel="stylesheet" href="../styles/media.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
 </head>
 <body>
@@ -17,7 +18,7 @@
                 </div>
 
                 <div class="col col-10 col-md-9 col-sm-8">
-                    <div class="mobile-menu ">
+                    <div class="mobile-menu active">
                         <img src="../img/mobile-menu.png" alt="">
                     </div>
                     <nav class="header__nav">
@@ -110,11 +111,29 @@
 
     <section class="pricing-question">
         <div class="container">
+
             <h2>Heading for FAQs</h2>
-            <p>What’s the most frequently asked question?</p>
-            <p>Answer the frequently asked question in a simple sentence, a longish paragraph, or even in a list.</p>
-            <p>How about a second one?</p>
-            <p>And a third? <span>+</span></p>
+
+            <div class="faq">
+                <div class="faq-item active">
+        
+                    <div class="faq-item__question"><p>What’s the most frequently asked question?</p> <img src="../img/pricing-plus.svg" alt=""></div>
+                    <div class="faq-item__answer"> <p>Answer the frequently asked question in a simple sentence, a longish paragraph, or even in a list.</p></div>
+                </div>
+                <div class="faq-item">
+
+                    <div class="faq-item__question"><p>How about a second one?</p><img src="../img/pricing-plus.svg" alt=""></div>
+                    <div class="faq-item__answer"> <p>Answer the frequently asked question in a simple sentence, a longish paragraph, or even in a list.</p></div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-item__question"><p>And a third? <span>+</span></p><img src="../img/pricing-plus.svg" alt=""></div>
+                    <div class="faq-item__answer"> <p>Answer the frequently asked question in a simple sentence, a longish paragraph, or even in a list.</p></div>
+                </div>
+
+            </div>
+
+            
+            
         </div>
     </section>
 
@@ -156,5 +175,21 @@
 
         </div>
     </footer>
+    <script>
+        $(document).ready(function() {
+            $(".faq-item__question").click(function() {
+                $(this).closest(".faq-item").toggleClass("active");
+            });
+        });
+
+
+        $(document).ready(function() {
+            $(".mobile-menu img").click(function() {
+                $(".header__nav ").toggle();
+            });
+        });
+    </script>
+        
+        
 </body>
 </html>

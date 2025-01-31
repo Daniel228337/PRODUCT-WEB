@@ -53,6 +53,7 @@ a {
 button {
     all: unset;
     cursor: pointer;
+    box-sizing: border-box;
 }
 
 .container {
@@ -80,6 +81,7 @@ button {
     padding: 56px 0;
     font-weight: 500;
     font-size: 20px;
+    position: relative;
 }
 
 .header__logo {
@@ -625,69 +627,48 @@ button {
 }
 
 /* *_______________PRICING-QUESTION_______________* */
-.pricing-question {
-    padding-bottom: 124px;
-}
-
 .pricing-question h2 {
+    margin-bottom: 35px;
+}
+
+.pricing-question {
+    padding-bottom: 120px;
+}
+
+.faq-item {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
     margin-bottom: 32px;
 }
 
-.pricing-question p:nth-child(2) {
+.faq-item__question {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
     font-size: 24px;
-    margin-bottom: 36px;
-    position: relative;
+    cursor: pointer;
 }
 
-.pricing-question p:nth-child(2)::after {
-    content: "";
-    position: absolute;
-    background-image: url(../img/pricing-plus.png);
-    right: 0;
-    top: 5px;
+.faq-item__question img {
+    display: block;
     width: 27px;
     height: 44px;
-    background-repeat: no-repeat;
-}
-
-.pricing-question p:nth-child(3) {
-    font-weight: 500;
-    color: var(--color-grey);
-    margin-bottom: 32px;
-}
-
-.pricing-question p:nth-child(4) {
-    font-size: 24px;
-    margin-bottom: 36px;
-    position: relative;
-}
-
-.pricing-question p:nth-child(4)::after {
-    content: "";
-    position: absolute;
-    background-image: url(../img/pricing-plus.png);
-    right: 0;
-    top: 5px;
-    width: 27px;
     height: 44px;
-    background-repeat: no-repeat;
 }
 
-.pricing-question p:nth-child(5) {
-    font-size: 24px;
-    position: relative;
+.faq-item__answer {
+    color: #828282;
+    display: none;
 }
 
-.pricing-question p:nth-child(5)::after {
-    content: "";
-    position: absolute;
-    background-image: url(../img/pricing-plus.png);
-    right: 0;
-    top: 5px;
-    width: 27px;
-    height: 44px;
-    background-repeat: no-repeat;
+.faq-item.active .faq-item__answer {
+    display: block;
 }
+
+
+
+
 
 /* !_______________PORTFOLIO_______________! */
 

@@ -328,7 +328,7 @@
     }
 
     p {
-        font-size: 15px !important;
+        font-size: 16px !important;
     }
 
     span {
@@ -368,7 +368,20 @@
         display: none;
         flex-direction: column;
         gap: 12px;
-        margin-left: 120px;
+        position: absolute;
+        width: 100%;
+        background-color: white;
+        top: 100%;
+        left: 0;
+        right: 0;
+        padding: 16px;
+    }
+
+    .header__nav a {
+        display: block;
+        width: 100%;
+        padding: 10px 20px;
+        margin-bottom: 12px;
     }
 
     .home-greeting p {
@@ -584,28 +597,6 @@
 }
 
 @media (max-width: 575px) {
-     /* *MAIN STYLES */
-
-    h1 {
-        font-size: 24px !important;
-    }
-
-    h2,h3,h4 {
-        font-size: 20px !important;
-    }
-
-    b {
-        font-size: 15px !important;
-    }
-
-    p {
-        font-size: 12px !important;
-    }
-
-    span {
-        font-size: 11px !important;
-    }
-
 /* *_______________LANDING 1_______________* */
     
     button {
