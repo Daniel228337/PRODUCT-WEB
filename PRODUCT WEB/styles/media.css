@@ -598,12 +598,6 @@
 
 @media (max-width: 575px) {
 /* *_______________LANDING 1_______________* */
-    
-    button {
-        font-size: 12px;
-        padding: 7px 12px;
-    }
-
     .home-greeting button {
         margin: 0;
     }
