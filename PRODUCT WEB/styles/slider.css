@@ -73,10 +73,10 @@
 
 .slider .slick-arrow {
     position: absolute;
-    z-index: 10;
     font-size: 0;
     padding: 0;
     margin-top: -35px;
+    opacity: 60%;
 }
 
 .slider .slick-arrow.slick-prev {
@@ -99,6 +99,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 30px;
 }
 
 .slider .slick-dots li {
@@ -111,7 +112,7 @@
     width: 10px;
     height: 10px;
     background-color: black;
-    opacity: 50%;
+    opacity: 40%;
     border-radius: 100%;
     padding: 0;
 }

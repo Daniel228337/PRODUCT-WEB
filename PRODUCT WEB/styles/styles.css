@@ -147,6 +147,7 @@ button {
     padding: 32px;
     box-shadow: -4px 8px 20px 0px #0000001A;
     border-radius: 12px;
+    margin-bottom: 35px;
 }
 
 .home-reviews-card__item p {
